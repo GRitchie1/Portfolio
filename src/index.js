@@ -1,19 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import NavBar from './pages/Nav/Nav';
-import App from './pages/App/App';
+import NavBar from './components/Nav/Nav';
+
 import reportWebVitals from './reportWebVitals';
 
 //Sections
-import About from './pages/About/About';
-import Qualifications from './pages/Qualifications/Qualifications';
+import Main from './sections/Main/Main';
+import About from './sections/About/About';
+import Qualifications from './sections/Qualifications/Qualifications';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <NavBar />
-    <App />
+    <Main />
     <About /> 
     <Qualifications /> 
   </React.StrictMode>
