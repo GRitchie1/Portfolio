@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './pages/App/App';
-import About from './pages/About/About';
 import NavBar from './pages/Nav/Nav';
+import App from './pages/App/App';
 import reportWebVitals from './reportWebVitals';
+
+//Sections
+import About from './pages/About/About';
+import Qualifications from './pages/Qualifications/Qualifications';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +15,7 @@ root.render(
     <NavBar />
     <App />
     <About /> 
+    <Qualifications /> 
   </React.StrictMode>
 );
 
