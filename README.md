@@ -6,6 +6,6 @@ This is a portfolio website to show off my skills and some of my past projects. 
 ## Colour Pallette
 The colour pallette for this website is the following:
 - Dark Grey: #262626
+- Second Grey: #3f3f3f
 - White: #f5f5f5
-- Light grey: #dcdcdc
 - Red: #7a0b12
