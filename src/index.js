@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './pages/App/App';
+import About from './pages/About/About';
 import NavBar from './pages/Nav/Nav';
 import reportWebVitals from './reportWebVitals';
 
@@ -10,6 +11,7 @@ root.render(
   <React.StrictMode>
     <NavBar />
     <App />
+    <About /> 
   </React.StrictMode>
 );
 
