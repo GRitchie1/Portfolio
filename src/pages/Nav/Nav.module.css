@@ -2,18 +2,18 @@
     background-color:#3f3f3f;
     text-align:center;
     overflow:hidden;
-    padding:20px 10px;
+    padding:5px 10px;
   }
 
 
 .NavItem{
-    background-color: #262626;
+    background-color: #3f3f3f;
     padding: 12px;
     text-decoration: none;
     font-size: 18px; 
     line-height: 25px;
-    border-radius: 4px;
-    margin: 0 5px;
+    border-radius: 1px;
+    margin: 0;
     min-width:100px;
     text-align:center;
     display:inline-block
