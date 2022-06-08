@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './Spiral.png';
 import './App.css';
 
 function App() {
@@ -6,17 +6,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Welcome to Gregor Ritchie's Portfolio Website</h1>
+        <p> This website has been made using React. </p>
+        <button fontSize="100">
+          &#8595;
+        </button>
+
       </header>
     </div>
   );
