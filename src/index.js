@@ -9,6 +9,8 @@ import reportWebVitals from './reportWebVitals';
 import Main from './sections/Main/Main';
 import About from './sections/About/About';
 import Qualifications from './sections/Qualifications/Qualifications';
+import Projects from './sections/Projects/Projects';
+import Contact from './sections/Contact/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +19,8 @@ root.render(
     <Main />
     <About /> 
     <Qualifications /> 
+    <Projects />
+    <Contact />
   </React.StrictMode>
 );
 
