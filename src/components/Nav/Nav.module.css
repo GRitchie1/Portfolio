@@ -1,5 +1,5 @@
 .NavBar {
-    background-color:#3f3f3f;
+    background-color:#f5f5f5;
     text-align:center;
     overflow:hidden;
     padding:5px 10px;
@@ -7,7 +7,7 @@
 
 
 .NavItem{
-    background-color: #3f3f3f;
+    background-color: #f5f5f5;
     padding: 12px;
     text-decoration: none;
     font-size: 18px; 
@@ -20,14 +20,14 @@
 }
 
 .NavItem:hover{
-    background-color: #7a0b12;
+    background-color: #262626;
 }
 
 .NavLink{
     font-weight: bold;
-    color:#f5f5f5;
+    color:#262626;
 }
 
 .NavLink:hover{
-    color: #262626;
+    color: #f5f5f5;
 }
