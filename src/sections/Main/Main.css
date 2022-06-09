@@ -15,13 +15,17 @@
 
 .Main-header {
   background-color: #262626 ;
+  background-image: url("mountains.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #262626;
 }
 
 @keyframes Main-logo-spin {
@@ -31,4 +35,9 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.Main-Button{
+  font-size: 300px;
+  font-weight: bold;
 }

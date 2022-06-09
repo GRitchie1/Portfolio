@@ -5,12 +5,12 @@ function Main() {
   return (
     <div className="Main">
       <header className="Main-header">
-        <img src={logo} className="Main-logo" alt="logo" />
-        <h1>Welcome to Gregor Ritchie's Portfolio Website</h1>
-        <p> This website has been made using React. </p>
-        <button fontSize="100">
+        <h1>I am Gregor Ritchie</h1>
+        <p> I am an aspiring software engineer with a passion for systems development and mechatronics.</p>
+        
+        <div className="Main-Button">
           &#8595;
-        </button>
+        </div>
 
       </header>
     </div>
