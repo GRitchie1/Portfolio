@@ -5,7 +5,7 @@ export class NavBar extends React.Component {
     constructor(props){
       super(props);
       this.pages=[
-        {name:"Home", to:"/"},
+        {name:"Home", to:"#home"},
         {name:"About Me", to:"#aboutme"},
         {name:"Qualifications", to:"#qualifications"},
         {name:"Projects", to:"#projects"},
