@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import NavBar from './components/Nav/Nav';
-
 import reportWebVitals from './reportWebVitals';
+
+//components
+import NavBar from './components/Nav/Nav';
 
 //Sections
 import Main from './sections/Main/Main';
