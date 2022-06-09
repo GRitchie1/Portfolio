@@ -28,9 +28,11 @@ export class NavBar extends React.Component {
 class NavItem extends React.Component{
   render(){
     return(
+      <a className={styles.NavLink} href={this.props.to}>
         <div className={styles.NavItem}>
-          <a className={styles.NavLink} href={this.props.to}>{this.props.name}</a>
+          {this.props.name}
         </div>
+      </a>
     )
   }
 }
