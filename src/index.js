@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 
 //components
 import NavBar from './components/Nav/Nav';
+import Footer from './components/Footer/Footer';
 
 //Sections
 import Main from './sections/Main/Main';
@@ -22,6 +23,7 @@ root.render(
     <Qualifications /> 
     <Projects />
     <Contact />
+    <Footer />
   </React.StrictMode>
 );
 
