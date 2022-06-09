@@ -1,0 +1,38 @@
+.Footer {
+    background-color:#f5f5f5;
+    text-align:center;
+    overflow:hidden;
+    padding:5px 10px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.FooterLeft {
+    flex: 25%;
+    margin:auto;
+    color: #262626;
+  }
+
+.FooterMiddle {
+    flex: 50%;
+    margin:auto;
+    color: #262626;
+  }
+
+  .FooterRight {
+    flex: 25%;
+    margin:auto;
+    color: #262626;
+  }
+
+
+  @media (max-width: 800px) {
+    .FooterLeft, .FooterMiddle, .FooterRight {
+      flex: 100%;
+    }
+  }
+
+  a{
+      color:#262626;
+  }
