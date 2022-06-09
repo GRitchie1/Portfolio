@@ -37,12 +37,73 @@
   }
 }
 
-.Main-Button{
-  font-size: 300px;
-  font-weight: bold;
+.m_scroll_arrows
+{
+  display: block;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+   
+  border-right: 8px solid #262626;
+  border-bottom: 8px solid #262626;
+  margin: 0 0 12px 16px;
+  
+  width: 32px;
+  height: 32px;
 }
-.Main-Button a{
-  color:#262626;
-  text-decoration:none;
-  text-shadow: 3px 1px #f5f5f5;
+
+
+.one
+{
+  margin-top: 1px;
+}
+
+.one, .two, .three
+{
+    -webkit-animation: mouse-scroll 1s infinite;
+    -moz-animation: mouse-scroll 1s infinite;
+    animation: mouse-scroll 1s infinite;
+  
+}
+
+.one
+{
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  -webkit-animation-direction: alternate;
+  
+  animation-direction: alternate;
+  animation-delay: alternate;
+}
+
+.two
+{
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  -webkit-animation-direction: alternate;
+  
+  animation-delay: .2s;
+  animation-direction: alternate;
+  
+  margin-top: -6px;
+}
+
+.three
+{
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  -webkit-animation-direction: alternate;
+  
+  animation-delay: .3s;
+  animation-direction: alternate;
+  
+  
+  margin-top: -6px;
+}
+
+@keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
 }

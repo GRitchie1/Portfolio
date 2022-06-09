@@ -9,7 +9,11 @@ function Main() {
         <p> I am an aspiring software engineer with a passion for systems development and mechatronics.</p>
         {/*<img src={logo} className="App-logo" alt="logo" />*/}
         <div className="Main-Button">
-          <a href = "#aboutme">&#8595;</a>
+          <a href="#aboutme">
+            <span class="m_scroll_arrows one"></span>
+            <span class="m_scroll_arrows two"></span>
+            <span class="m_scroll_arrows three"></span>
+          </a>
         </div>
 
       </header>
