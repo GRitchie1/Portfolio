@@ -5,7 +5,6 @@
     flex-wrap: wrap;
     min-height: 100vh;
     align-items: left;
-    justify-content: center;
     padding:100px;
     color: #262626;
     font-size: calc(10px + 2vmin);
@@ -13,12 +12,14 @@
       
 .About-Header {
     flex: 75%;
+    margin:auto;
   }
 
   .About-Image{
     flex: 25%;
     width: 25%;
     height: 25%;
+    margin:auto;
   }
   
 
