@@ -3,6 +3,8 @@
     text-align:center;
     overflow:hidden;
     padding:5px 10px;
+    position: fixed;
+    width: 100vw;
   }
 
 
