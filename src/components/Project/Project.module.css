@@ -4,4 +4,22 @@
     border:solid 2px #3f3f3f;
     margin:10px auto;
     padding:20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.ProjectImg{
+    flex: 25%;
+    width: 25%;
+    height: 25%;
+    margin:auto;
+}
+
+.ProjectTextContainer{
+    flex: 75%;
+    margin:auto;
+}
+
+.ProjectText{
+    margin-left:20px
 }
