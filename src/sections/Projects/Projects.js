@@ -24,7 +24,7 @@ export class Projects extends React.Component {
   }
   loadMoreButton(){
     if (this.state.loadNumber*this.pageSize < this.projectslist.length){
-      return(<button onClick={this.handleClick}>Load More</button>)
+      return(<button className="ProjectsButton" onClick={this.handleClick}>Load More</button>)
     }
 
   }
