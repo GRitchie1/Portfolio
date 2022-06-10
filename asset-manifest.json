@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/gritchie.github.io/static/css/main.0c34c98d.css",
-    "main.js": "/gritchie.github.io/static/js/main.456b531c.js",
-    "static/js/787.78659104.chunk.js": "/gritchie.github.io/static/js/787.78659104.chunk.js",
-    "static/media/1.jpg": "/gritchie.github.io/static/media/1.ed23219ac75a7bbaa664.jpg",
-    "static/media/GRitchie1 HTB Transcript.pdf": "/gritchie.github.io/static/media/GRitchie1 HTB Transcript.d9983b81335d6a0c86b8.pdf",
-    "static/media/mountains.jpg": "/gritchie.github.io/static/media/mountains.eb2b72b7a8409ddc45ff.jpg",
-    "static/media/image.jpg": "/gritchie.github.io/static/media/image.a9a7a047bb0a6feeac28.jpg",
-    "static/media/2.jpg": "/gritchie.github.io/static/media/2.f356e73c9a43d17d2a45.jpg",
-    "static/media/htb.jpg": "/gritchie.github.io/static/media/htb.980b253a2a746bd237c8.jpg",
-    "static/media/Codecademy.png": "/gritchie.github.io/static/media/Codecademy.5cbdc72dbbe7bd2966a0.png",
-    "index.html": "/gritchie.github.io/index.html",
-    "main.0c34c98d.css.map": "/gritchie.github.io/static/css/main.0c34c98d.css.map",
-    "main.456b531c.js.map": "/gritchie.github.io/static/js/main.456b531c.js.map",
-    "787.78659104.chunk.js.map": "/gritchie.github.io/static/js/787.78659104.chunk.js.map"
+    "main.css": "/static/css/main.eb4ce0e1.css",
+    "main.js": "/static/js/main.392c17a0.js",
+    "static/js/787.78659104.chunk.js": "/static/js/787.78659104.chunk.js",
+    "static/media/1.jpg": "/static/media/1.ed23219ac75a7bbaa664.jpg",
+    "static/media/GRitchie1 HTB Transcript.pdf": "/static/media/GRitchie1 HTB Transcript.d9983b81335d6a0c86b8.pdf",
+    "static/media/mountains.jpg": "/static/media/mountains.eb2b72b7a8409ddc45ff.jpg",
+    "static/media/image.jpg": "/static/media/image.a9a7a047bb0a6feeac28.jpg",
+    "static/media/2.jpg": "/static/media/2.f356e73c9a43d17d2a45.jpg",
+    "static/media/htb.jpg": "/static/media/htb.980b253a2a746bd237c8.jpg",
+    "static/media/Codecademy.png": "/static/media/Codecademy.5cbdc72dbbe7bd2966a0.png",
+    "index.html": "/index.html",
+    "main.eb4ce0e1.css.map": "/static/css/main.eb4ce0e1.css.map",
+    "main.392c17a0.js.map": "/static/js/main.392c17a0.js.map",
+    "787.78659104.chunk.js.map": "/static/js/787.78659104.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c34c98d.css",
-    "static/js/main.456b531c.js"
+    "static/css/main.eb4ce0e1.css",
+    "static/js/main.392c17a0.js"
   ]
 }
