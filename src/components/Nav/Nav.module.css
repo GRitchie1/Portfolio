@@ -5,6 +5,7 @@
     padding:5px 10px;
     position: fixed;
     width: 100vw;
+    z-index:100;
   }
 
 
