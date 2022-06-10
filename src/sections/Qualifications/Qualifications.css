@@ -27,3 +27,15 @@
   height:12vh;
 }
   
+@media (max-width: 800px) {
+  .Qualification-Section{
+    text-align: left;
+  }
+
+  .Qualification-Links{
+    margin-left: 20px;
+    margin-top: 50px;
+    
+  }
+
+}
