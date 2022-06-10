@@ -18,8 +18,11 @@ export class Projects extends React.Component {
         <header className="Projects-Header">
           <h1 >Projects</h1>
           <p> Here are some of my current and past projects.</p>
-          {this.projectslist.map((project)=>{return(<Project title={project.title} content={project.content} img={project.img} readmore={project.readmore}/>);})}
         </header>
+          <div className='Projects-Container'>
+            {this.projectslist.map((project)=>{return(<Project title={project.title} content={project.content} img={project.img} readmore={project.readmore}/>);})}
+          </div>
+        
       </div>
     );
   }
