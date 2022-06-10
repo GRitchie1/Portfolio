@@ -8,7 +8,7 @@ export class Projects extends React.Component {
   constructor(props){
     super(props);
     this.projectslist = [
-      {title:"RFID Robotic ARM", content:"As part of my HND Mechatronics course I built an RFID Robotic arm to pick up, identify, and sort items based on their RFID codes.", img:img1, readmore:"https://github.com/GRitchie1/RFIDRoboticArm-HNDGradedUnit" },
+      {title:"RFID Robotic Arm", content:"As part of my HND Mechatronics course I built an RFID Robotic arm to pick up, identify, and sort items based on their RFID codes.  This project was 3D printed on my Ender3V2.", img:img1, readmore:"https://github.com/GRitchie1/RFIDRoboticArm-HNDGradedUnit" },
       {title:"Automatic GreenHouse", content:"I am currently developing a modular automatic greenhouse that can water the plants and control the air temperature & humidity.", img:img2, readmore:"https://github.com/GRitchie1/AutomaticGreenhouse" },
     ]
   }
