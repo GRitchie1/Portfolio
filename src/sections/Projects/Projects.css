@@ -3,7 +3,7 @@
     background-color: #f5f5f5 ;
     min-height: 100vh;
     align-items: left;
-    padding:100px;
+    padding:100px 350px;
     color: #262626;
     font-size: calc(10px + 2vmin);
   }
@@ -11,15 +11,15 @@
   .Projects-Container{
     display: flex;
     flex-wrap: wrap;
-
+    font-size: calc(10px + 1vmin);
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     .Projects-Header, .Projects-Image {
       flex: 100%;
     }
 
     .Projects-Section{
-      padding:10px;
+      padding:20px;
     }
   }
