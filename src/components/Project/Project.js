@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Project.module.css';
+import Button from '../Button/Button'
 
 export class Project extends React.Component {
     constructor(props){
@@ -17,7 +18,7 @@ export class Project extends React.Component {
           <div className={styles.ProjectTextContainer}>
             <h3 className={styles.ProjectText}>{this.title}</h3>
             <p className={styles.ProjectText}>{this.content}</p>
-            <a className={styles.ProjectText} href={this.readmore}>Read More</a>
+            <Button link={this.readmore} text="Read More"/>
           </div>
         </div>
       );

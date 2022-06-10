@@ -1,0 +1,18 @@
+.ButtonContainer{
+    background-color: #262626;
+    text-align: center;
+    border-bottom:solid 3px black;
+    margin:10px 20px 10px 0px;
+    padding:20px;
+    border-radius: 5px;
+}
+
+.ButtonText{
+    margin:auto;
+}
+
+.ButtonText{
+    color:white;
+    font-weight: bolder;
+    text-decoration: none;
+}
