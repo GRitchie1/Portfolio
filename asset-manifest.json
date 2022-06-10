@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd344a73.css",
+    "main.css": "/static/css/main.556e3cc5.css",
     "main.js": "/static/js/main.7e771c59.js",
     "static/js/787.78659104.chunk.js": "/static/js/787.78659104.chunk.js",
     "static/media/1.jpg": "/static/media/1.ed23219ac75a7bbaa664.jpg",
@@ -11,12 +11,12 @@
     "static/media/htb.jpg": "/static/media/htb.980b253a2a746bd237c8.jpg",
     "static/media/Codecademy.png": "/static/media/Codecademy.5cbdc72dbbe7bd2966a0.png",
     "index.html": "/index.html",
-    "main.fd344a73.css.map": "/static/css/main.fd344a73.css.map",
+    "main.556e3cc5.css.map": "/static/css/main.556e3cc5.css.map",
     "main.7e771c59.js.map": "/static/js/main.7e771c59.js.map",
     "787.78659104.chunk.js.map": "/static/js/787.78659104.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd344a73.css",
+    "static/css/main.556e3cc5.css",
     "static/js/main.7e771c59.js"
   ]
 }
