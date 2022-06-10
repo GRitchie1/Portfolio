@@ -23,8 +23,12 @@
   }
   
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     .About-Header, .About-Image {
       flex: 100%;
+    }
+
+    .About-Section{
+      padding:20px;
     }
   }
