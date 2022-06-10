@@ -14,4 +14,16 @@
     color: #f5f5f5;
   }
 
+.Qualification-LinksContainer{
+    margin-top: 50px;
+}
+
+.Qualification-Links{
+  color: #f5f5f5;
+  margin-left: 100px;
+}
+
+.Qualification-Links img{
+  height:12vh;
+}
   
