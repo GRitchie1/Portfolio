@@ -19,18 +19,55 @@ export class NavBar extends React.Component {
           <div className={styles.NavBar}>
             {this.pages.map((page, index)=>{return(<NavItem key={index} name={page.name} to={page.to}/>);})
             }
-            
           </div>
-          <div className={styles.HamburgerMenu}>
-            <span id={styles.one} className={styles.hamburger_lines}></span>
-            <span id={styles.two} className={styles.hamburger_lines}></span>
-            <span id={styles.three} className={styles.hamburger_lines}></span>
-          </div>
+          <HamburgerMenu/>
         </div>
       );
     }
   }
 
+
+class HamburgerMenu extends React.Component{
+  constructor(props){
+    super(props)
+    this.state ={expandMenu: 0}
+  }
+  handleClick = () => {
+    
+    if (this.state.expandMenu === 0){
+      this.setState(() => ({
+        expandMenu: 1
+      }))
+    }
+    else if (this.state.expandMenu === 1){
+      this.setState(() => ({
+        expandMenu: 0
+      }))
+    }
+  }
+  render(){
+    if (this.state.expandMenu === 0){
+      return (
+        <div onClick={this.handleClick} className={styles.HamburgerMenu}>
+                <span id={styles.one} className={styles.hamburger_lines}></span>
+                <span id={styles.two} className={styles.hamburger_lines}></span>
+                <span id={styles.three} className={styles.hamburger_lines}></span>
+        </div>
+      )
+    }
+    else{
+      return(
+        <div onClick={this.handleClick} className={styles.HamburgerMenu}>
+          <span id={styles.one} className={styles.hamburger_lines}></span>
+          <span id={styles.two} className={styles.hamburger_lines}></span>
+          <span id={styles.three} className={styles.hamburger_lines}></span>
+          <p>Menu is now open</p>
+        </div>
+      )
+    }
+    
+  }
+}
 
 class NavItem extends React.Component{
   render(){
