@@ -3,8 +3,7 @@ import './Main.css';
 
 function Main() {
   return (
-    <div id="home" className="Main">
-      <header className="Main-header">
+    <div id="home" className="MainSection">
         <h1 >I am Gregor Ritchie</h1>
         <p> I am an aspiring software engineer with a passion for systems development and mechatronics.</p>
         {/*<img src={logo} className="App-logo" alt="logo" />*/}
@@ -15,8 +14,6 @@ function Main() {
             <span class="m_scroll_arrows three"></span>
           </a>
         </div>
-
-      </header>
     </div>
   );
 }
