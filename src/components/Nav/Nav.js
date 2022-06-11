@@ -15,10 +15,17 @@ export class NavBar extends React.Component {
     
     render() {
       return (
-        <div className={styles.NavBar}>
-          {this.pages.map((page, index)=>{return(<NavItem key={index} name={page.name} to={page.to}/>);})
-          }
-          
+        <div>
+          <div className={styles.NavBar}>
+            {this.pages.map((page, index)=>{return(<NavItem key={index} name={page.name} to={page.to}/>);})
+            }
+            
+          </div>
+          <div className={styles.HamburgerMenu}>
+            <span id={styles.one} className={styles.hamburger_lines}></span>
+            <span id={styles.two} className={styles.hamburger_lines}></span>
+            <span id={styles.three} className={styles.hamburger_lines}></span>
+          </div>
         </div>
       );
     }
