@@ -31,6 +31,13 @@ class HamburgerMenu extends React.Component{
   constructor(props){
     super(props)
     this.state ={expandMenu: 0}
+    this.pages=[
+      {name:"Home", to:"#home"},
+      {name:"About Me", to:"#aboutme"},
+      {name:"Qualifications", to:"#qualifications"},
+      {name:"Projects", to:"#projects"},
+      {name:"Contact Me", to:"#contactme"},
+    ];
   }
   handleClick = () => {
     
@@ -57,12 +64,16 @@ class HamburgerMenu extends React.Component{
     }
     else{
       return(
+      <div className={styles.HamNavBar}>
         <div onClick={this.handleClick} className={styles.HamburgerMenu}>
           <span id={styles.one} className={styles.hamburger_lines}></span>
           <span id={styles.two} className={styles.hamburger_lines}></span>
           <span id={styles.three} className={styles.hamburger_lines}></span>
-          <p>Menu is now open</p>
         </div>
+        <div id={styles.HamNav}>
+          {this.pages.map((page, index)=>{return(<NavItem key={index} name={page.name} to={page.to}/>);})}
+        </div>
+      </div>
       )
     }
     
