@@ -10,7 +10,7 @@
     padding:100px;
   }
       
-.Qualification-Header {    
+.Qualification-Header, .Qualification-Header a{    
     color: #f5f5f5;
   }
 
