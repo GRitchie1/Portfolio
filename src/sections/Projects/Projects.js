@@ -67,7 +67,7 @@ export class Projects extends React.Component {
     return (
       <div id="projects" className="Projects-Section">
         <header className="Projects-Header">
-          <h1 >Projects {this.state.loadNumber} {this.state.openProjectID} </h1>
+          <h1>Projects </h1>
           <p> Here are some of my current and past projects and experiments.</p>
         </header>
         {this.showProjects()}
