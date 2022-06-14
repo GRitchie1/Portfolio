@@ -18,7 +18,7 @@ export class Projects extends React.Component {
     this.state = { loadNumber: 1, openProjectID: -1 }; //Default number of pages to show
     this.currentOpenProject = null
 
-    this.handler = this.handler.bind(this)
+    this.handleOpenProject = this.handleOpenProject.bind(this)
 
     
   }
@@ -32,7 +32,7 @@ export class Projects extends React.Component {
     this.projectsToShow = this.projectslist.slice(0,((this.pageSize*this.state.loadNumber)+1))
   }
 
-  handler(id) {
+  handleOpenProject(id) {
     this.setState(() => ({
     openProjectID: id
     }))
@@ -49,14 +49,14 @@ export class Projects extends React.Component {
     if (this.state.openProjectID === -1){
       return(
         <div className='Projects-Container'>
-          {this.projectsToShow.map((project, index)=>{return(<Project title={project.title} content={project.content} img={project.img} index={index} key={index} handler={this.handler.bind(this)} url={project.url}/>);})}
+          {this.projectsToShow.map((project, index)=>{return(<Project title={project.title} content={project.content} img={project.img} index={index} key={index} handleOpenProject={this.handleOpenProject.bind(this)} url={project.url}/>);})}
         </div>
       );
     }
     else{
       this.currentOpenProject = this.projectslist[this.state.openProjectID]
       return(
-        <OpenProject title={this.currentOpenProject.title} content={this.currentOpenProject.content}/>
+        <OpenProject title={this.currentOpenProject.title} content={this.currentOpenProject.content} handleOpenProject={this.handleOpenProject.bind(this)}/>
       );
     }
   }

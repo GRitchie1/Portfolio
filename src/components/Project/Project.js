@@ -20,7 +20,7 @@ class Project extends React.Component {
             <h3 className={styles.ProjectText}>{this.title}</h3>
             <p className={styles.ProjectText}>{this.content}</p>
             <Button link={this.url} text="Read More"/>
-            <button onClick={()=>this.props.handler(this.index)}>open</button>
+            <button onClick={()=>this.props.handleOpenProject(this.index)}>open</button>
           </div>
         </div>
       );
@@ -43,6 +43,7 @@ class Project extends React.Component {
           <h3 className={styles.ProjectText}>{this.title}</h3>
             <p className={styles.ProjectText}>{this.content}</p>
           This is an open project
+          <button onClick={()=>this.props.handleOpenProject(-1)}>Close</button>
         </div>
       );
     }
