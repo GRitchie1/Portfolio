@@ -9,9 +9,9 @@ function Main() {
         {/*<img src={logo} className="App-logo" alt="logo" />*/}
         <div className="Main-Button">
           <a href="#aboutme">
-            <span class="m_scroll_arrows one"></span>
-            <span class="m_scroll_arrows two"></span>
-            <span class="m_scroll_arrows three"></span>
+            <span className="m_scroll_arrows one"></span>
+            <span className="m_scroll_arrows two"></span>
+            <span className="m_scroll_arrows three"></span>
           </a>
         </div>
     </div>
