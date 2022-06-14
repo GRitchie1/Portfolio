@@ -39,7 +39,7 @@ export class Projects extends React.Component {
   }
 
   loadMoreButton(){
-    if (this.state.loadNumber*this.pageSize < this.projectslist.length){
+    if (this.state.loadNumber*this.pageSize < this.projectslist.length && this.state.openProjectID === -1){
       return(<button className="ProjectsButton" onClick={this.handleLoadMoreClick}>Load More</button>)
     }
 
