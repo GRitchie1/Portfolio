@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb8f1e64.css",
-    "main.js": "/static/js/main.caecd282.js",
+    "main.css": "/static/css/main.d88a842b.css",
+    "main.js": "/static/js/main.0f7aca2b.js",
     "static/js/787.78659104.chunk.js": "/static/js/787.78659104.chunk.js",
     "static/media/1.jpg": "/static/media/1.ed23219ac75a7bbaa664.jpg",
     "static/media/GRitchie1 HTB Transcript.pdf": "/static/media/GRitchie1 HTB Transcript.d9983b81335d6a0c86b8.pdf",
@@ -12,12 +12,12 @@
     "static/media/htb.jpg": "/static/media/htb.980b253a2a746bd237c8.jpg",
     "static/media/Codecademy.png": "/static/media/Codecademy.5cbdc72dbbe7bd2966a0.png",
     "index.html": "/index.html",
-    "main.cb8f1e64.css.map": "/static/css/main.cb8f1e64.css.map",
-    "main.caecd282.js.map": "/static/js/main.caecd282.js.map",
+    "main.d88a842b.css.map": "/static/css/main.d88a842b.css.map",
+    "main.0f7aca2b.js.map": "/static/js/main.0f7aca2b.js.map",
     "787.78659104.chunk.js.map": "/static/js/787.78659104.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb8f1e64.css",
-    "static/js/main.caecd282.js"
+    "static/css/main.d88a842b.css",
+    "static/js/main.0f7aca2b.js"
   ]
 }
