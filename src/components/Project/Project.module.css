@@ -23,6 +23,13 @@ a{
     color:#262626;
 }
 
+.OpenProjectContainer{
+    height:300px;
+    width: 100%;
+    background-color: red;
+    z-index:1020;
+}
+
 @media (max-width: 800px) {
     .ProjectContainer{
         flex:100%;
