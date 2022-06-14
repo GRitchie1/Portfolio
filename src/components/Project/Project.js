@@ -40,10 +40,11 @@ class Project extends React.Component {
     render() {
       return (
         <div className={styles.OpenProjectContainer}>
-          <h3 className={styles.ProjectText}>{this.title}</h3>
-            <p className={styles.ProjectText}>{this.content}</p>
-          This is an open project
           <button onClick={()=>this.props.handleOpenProject(-1)}>Close</button>
+          <img className={styles.OpenProjectImg} src={this.img} alt={this.title}></img>
+          <h3 className={styles.ProjectText}>{this.title}</h3>
+          <p className={styles.ProjectText}>{this.content}</p>
+          <Button link={this.url} text="Read More"/>
         </div>
       );
     }

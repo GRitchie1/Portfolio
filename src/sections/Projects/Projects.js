@@ -54,9 +54,9 @@ export class Projects extends React.Component {
       );
     }
     else{
-      this.currentOpenProject = this.projectslist[this.state.openProjectID]
+      var currentOpenProject = this.projectslist[this.state.openProjectID]
       return(
-        <OpenProject title={this.currentOpenProject.title} content={this.currentOpenProject.content} handleOpenProject={this.handleOpenProject.bind(this)}/>
+        <OpenProject title={currentOpenProject.title} content={currentOpenProject.content} img={currentOpenProject.img} handleOpenProject={this.handleOpenProject.bind(this)} url={currentOpenProject.url}/>
       );
     }
   }
