@@ -15,9 +15,8 @@ export class Projects extends React.Component {
     ]
     this.projectsToShow=[this.projectslist[0]]
     this.pageSize = 1               //Number of projects per page
-    this.state = { loadNumber: 1, openProjectID: -1}; //Default number of pages to show
+    this.state = { loadNumber: 1, openProjectID: -1 }; //Default number of pages to show
     this.currentOpenProject = null
-    this.content= this.showProjects()
 
     this.handler = this.handler.bind(this)
 
@@ -34,10 +33,9 @@ export class Projects extends React.Component {
   }
 
   handler(id) {
-    this.setState({
-    openProjectID: id,
-    loadNumber: this.state.loadNumber
-    });
+    this.setState(() => ({
+    openProjectID: id
+    }))
   }
 
   loadMoreButton(){
@@ -51,14 +49,14 @@ export class Projects extends React.Component {
     if (this.state.openProjectID === -1){
       return(
         <div className='Projects-Container'>
-          {this.projectsToShow.map((project, index)=>{return(<Project title={project.title} content={project.content} img={project.img} index={1} key={index} handler={this.handler} url={project.url}/>);})}
+          {this.projectsToShow.map((project, index)=>{return(<Project title={project.title} content={project.content} img={project.img} index={index} key={index} handler={this.handler.bind(this)} url={project.url}/>);})}
         </div>
       );
     }
     else{
-      this.currentOpenProject = this.projectslist[this.openProjectID]
+      this.currentOpenProject = this.projectslist[this.state.openProjectID]
       return(
-        <OpenProject />
+        <OpenProject title={this.currentOpenProject.title} content={this.currentOpenProject.content}/>
       );
     }
   }
@@ -72,7 +70,7 @@ export class Projects extends React.Component {
           <h1 >Projects {this.state.loadNumber} {this.state.openProjectID} </h1>
           <p> Here are some of my current and past projects and experiments.</p>
         </header>
-        {this.content}
+        {this.showProjects()}
         {this.loadMoreButton()}
       </div>
     );

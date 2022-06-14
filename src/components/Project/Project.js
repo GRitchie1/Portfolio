@@ -13,7 +13,6 @@ class Project extends React.Component {
     }
     
     render() {
-      var index = this.index
       return (
         <div className={styles.ProjectContainer}>
           <img className={styles.ProjectImg} src={this.img} alt={this.title}></img>
@@ -21,7 +20,7 @@ class Project extends React.Component {
             <h3 className={styles.ProjectText}>{this.title}</h3>
             <p className={styles.ProjectText}>{this.content}</p>
             <Button link={this.url} text="Read More"/>
-            <button onClick={()=>this.props.handler(index)}>open</button>
+            <button onClick={()=>this.props.handler(this.index)}>open</button>
           </div>
         </div>
       );
@@ -41,6 +40,8 @@ class Project extends React.Component {
     render() {
       return (
         <div className={styles.OpenProjectContainer}>
+          <h3 className={styles.ProjectText}>{this.title}</h3>
+            <p className={styles.ProjectText}>{this.content}</p>
           This is an open project
         </div>
       );
