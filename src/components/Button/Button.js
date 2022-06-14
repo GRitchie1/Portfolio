@@ -11,7 +11,7 @@ export class Button extends React.Component {
     
     render() {
       return (
-        <a className={styles.ButtonLink} href={this.link}>
+        <a className={styles.ButtonLink} href={this.link} onClick={this.props.onClick}>
           <div className={styles.ButtonContainer}>
             <p className={styles.ButtonText}>{this.text}</p>
           </div>

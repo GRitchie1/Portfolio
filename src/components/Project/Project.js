@@ -7,7 +7,7 @@ class Project extends React.Component {
       super(props);
       this.title = props.title
       this.img = props.img
-      this.content = props.content
+      this.overview = props.overview
       this.url = props.url
       this.index = props.index
     }
@@ -18,9 +18,8 @@ class Project extends React.Component {
           <img className={styles.ProjectImg} src={this.img} alt={this.title}></img>
           <div className={styles.ProjectTextContainer}>
             <h3 className={styles.ProjectText}>{this.title}</h3>
-            <p className={styles.ProjectText}>{this.content}</p>
-            <Button link={this.url} text="Read More"/>
-            <button onClick={()=>this.props.handleOpenProject(this.index)}>open</button>
+            <p className={styles.ProjectText}>{this.overview}</p>
+            <Button onClick={()=>this.props.handleOpenProject(this.index)} text="Read More"></Button>
           </div>
         </div>
       );
@@ -40,11 +39,11 @@ class Project extends React.Component {
     render() {
       return (
         <div className={styles.OpenProjectContainer}>
-          <button onClick={()=>this.props.handleOpenProject(-1)}>Close</button>
+          <Button text="Close" onClick={()=>this.props.handleOpenProject(-1)}></Button>
           <img className={styles.OpenProjectImg} src={this.img} alt={this.title}></img>
           <h3 className={styles.ProjectText}>{this.title}</h3>
           <p className={styles.ProjectText}>{this.content}</p>
-          <Button link={this.url} text="Read More"/>
+          <Button link={this.url} text="Check it out on GitHub"/>
         </div>
       );
     }
