@@ -6,11 +6,13 @@
     padding:20px;
     flex:20%;
     border-radius: 5px;
+    min-width: 300px;
 }
 
 .ProjectImg{
-    height:15vh;
+    height: 15vh;
     margin: auto;
+    max-width: 100%;
 }
 
 .ProjectTextContainer{

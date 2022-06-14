@@ -3,6 +3,7 @@ import './Projects.css';
 import Project from '../../components/Project/Project';
 import img1 from './Images/1.jpg';
 import img2 from './Images/2.jpg';
+import img3 from './Images/3.jpg';
 
 export class Projects extends React.Component {
   constructor(props){
@@ -10,6 +11,7 @@ export class Projects extends React.Component {
     this.projectslist = [
       {title:"RFID Robotic Arm", content:"As part of my HND Mechatronics Graded Unit I built an RFID Robotic arm to pick up, identify, and sort items based on their RFID codes.  This project was 3D printed on my Ender3V2.  This project incorporated mechanical design, 3D modelling, 3D printing, electrical engineering, electronics and programming microcontrollers. ", img:img1, readmore:"https://github.com/GRitchie1/RFIDRoboticArm-HNDGradedUnit" },
       {title:"Automatic GreenHouse", content:"I am currently developing a modular automatic greenhouse that can water the plants and control the air temperature & humidity.  This will run entirely on solar power, and will be modular allowing for multiple units to be controlled by a single Controller Node running a Machine Learning algorithm.  This project is still in the design stage.", img:img2, readmore:"https://github.com/GRitchie1/AutomaticGreenhouse" },
+      {title:"Balena To Do List", content:"As an experiment I built a To Do List application using Flask.  This runs on a Raspberry Pi 4, managed using Balena.io, with the official Pi touchscreen to create a desktop 'To Do List'.  This allows users to track items with features such as sub-steps, due dates, and a Random Task selector.  The goal of this project was to learn Flask, and build a tool to improve my productivity.", img:img3, readmore:"https://github.com/GRitchie1/Balena_ToDoList" },
     ]
     this.projectsToShow=[this.projectslist[0]]
     this.pageSize = 1               //Number of projects per page
