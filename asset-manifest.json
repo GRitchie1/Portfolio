@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.0238f8c3.css",
-    "main.js": "/static/js/main.23581ff9.js",
+    "main.css": "/static/css/main.4fcec5d3.css",
+    "main.js": "/static/js/main.d76a1033.js",
     "static/js/787.78659104.chunk.js": "/static/js/787.78659104.chunk.js",
     "static/media/GRitchie1 HTB Transcript.pdf": "/static/media/GRitchie1 HTB Transcript.d9983b81335d6a0c86b8.pdf",
+    "static/media/schematic.jpg": "/static/media/schematic.be86146de41af976a63c.jpg",
     "static/media/mountains.jpg": "/static/media/mountains.821d131e9eaf8b7bc7a7.jpg",
-    "static/media/1.jpg": "/static/media/1.da1351cae25766ed0440.jpg",
+    "static/media/main.jpg": "/static/media/main.5c93d83a25f55b532982.jpg",
     "static/media/image.jpg": "/static/media/image.d14259c761b46d5f1641.jpg",
     "static/media/htb.jpg": "/static/media/htb.980b253a2a746bd237c8.jpg",
-    "static/media/2.jpg": "/static/media/2.45726e632706c835b2bd.jpg",
-    "static/media/3.jpg": "/static/media/3.5c93d83a25f55b532982.jpg",
     "static/media/Codecademy.png": "/static/media/Codecademy.5cbdc72dbbe7bd2966a0.png",
+    "static/media/model.jpg": "/static/media/model.85a2185d99e0a26ae61a.jpg",
     "index.html": "/index.html",
-    "main.0238f8c3.css.map": "/static/css/main.0238f8c3.css.map",
-    "main.23581ff9.js.map": "/static/js/main.23581ff9.js.map",
+    "main.4fcec5d3.css.map": "/static/css/main.4fcec5d3.css.map",
+    "main.d76a1033.js.map": "/static/js/main.d76a1033.js.map",
     "787.78659104.chunk.js.map": "/static/js/787.78659104.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0238f8c3.css",
-    "static/js/main.23581ff9.js"
+    "static/css/main.4fcec5d3.css",
+    "static/js/main.d76a1033.js"
   ]
 }
