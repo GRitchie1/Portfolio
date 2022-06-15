@@ -38,6 +38,7 @@ class HamburgerMenu extends React.Component{
       {name:"Projects", to:"#projects"},
       {name:"Contact Me", to:"#contactme"},
     ];
+    this.handleClick = this.handleClick.bind(this)
   }
   handleClick = () => {
     
@@ -71,7 +72,7 @@ class HamburgerMenu extends React.Component{
           <span id={styles.three} className={styles.hamburger_lines}></span>
         </div>
         <div id={styles.HamNav}>
-          {this.pages.map((page, index)=>{return(<NavItem key={index} name={page.name} to={page.to}/>);})}
+          {this.pages.map((page, index)=>{return(<NavItem key={index} name={page.name} onClick={this.handleClick.bind(this)} to={page.to}/>);})}
         </div>
       </div>
       )
@@ -83,7 +84,7 @@ class HamburgerMenu extends React.Component{
 class NavItem extends React.Component{
   render(){
     return(
-      <a className={styles.NavLink} href={this.props.to}>
+      <a className={styles.NavLink} href={this.props.to} onClick={this.props.onClick}>
         <div className={styles.NavItem}>
           {this.props.name}
         </div>
