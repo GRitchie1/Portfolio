@@ -172,7 +172,30 @@ var projectslist = [
         content:<div>
                     <p>I am currently developing a modular automatic greenhouse that can water the plants and control the air temperature & humidity.</p>
                     <p>This will run entirely on solar power, and will be modular allowing for multiple units to be controlled by a single Controller Node running a Machine Learning algorithm.</p>
-                    <p>This project is still in the design stage.</p>
+                    <h3>Design</h3>
+                    <p>
+                        The design of this project is intended to be highly modular, with the ability to chain multiple target nodes (units) together to allow for data to be 
+                        combined and analysed by a single controller node. 
+                        The power supply from the solar power system will also be chained to allow for a more simple power distribution setup.
+                    </p>
+                    <p>
+                        Each node will feature the following sensors:
+                    </p>
+                    <ul>
+                        <li>Temperature</li>
+                        <li>Air Humidity</li>
+                        <li>Soil moisture sensors (1 per planter)</li>
+                        <li>Light Level (front and back of unit)</li>
+                        <li>Water level to monitor irrigation system</li>
+                        <li>Camera (optional: adds ability to implement timelapses and machine learning)</li>
+                    </ul>
+                    <p>Each node will feature the following control systems:</p>
+                    <ul>
+                        <li>Light (LED strips)</li>
+                        <li>Temperature/Humidity (DC Fan)</li>
+                        <li>Soil moisture (Water Solenoid/Pump)</li>
+                    </ul>
+                    <h4>This project is still in the design stage.  The most up to date documentation is in the GitHub repository.</h4>
                 </div>,
         img:img2, 
         url:"https://github.com/GRitchie1/AutomaticGreenhouse" 
