@@ -25,14 +25,7 @@
   }
 
   .ProjectsButton{
-    background-color: #262626;
-    text-align: center;
-    border-bottom:solid 3px black;
-    padding:20px;
-    border-radius: 5px;
-    margin:auto;
-    color:white;
-    font-weight: bolder;
-    text-decoration: none;
-    cursor: pointer;
+    margin:auto; 
+    max-width:200px;
   }
+ 

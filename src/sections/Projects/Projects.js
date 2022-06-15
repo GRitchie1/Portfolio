@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import {Project, OpenProject} from '../../components/Project/Project';
+import Button from '../../components/Button/Button'
 import projectslist from './ProjectsList'
 
 export class Projects extends React.Component {
@@ -34,7 +35,7 @@ export class Projects extends React.Component {
 
   loadMoreButton(){
     if (this.state.loadNumber*this.pageSize < this.projectslist.length && this.state.openProjectID === -1){
-      return(<button className="ProjectsButton" onClick={this.handleLoadMoreClick}>Load More</button>)
+      return(<div className="ProjectsButton"><Button onClick={this.handleLoadMoreClick} text="Load More"></Button></div>)
     }
 
   }
