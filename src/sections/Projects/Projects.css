@@ -27,5 +27,6 @@
   .ProjectsButton{
     margin:auto; 
     max-width:200px;
+    font-size: calc(10px + 1vmin);;
   }
  
