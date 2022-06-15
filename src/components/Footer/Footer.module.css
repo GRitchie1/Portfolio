@@ -3,7 +3,7 @@
     text-align:center;
     overflow:hidden;
     padding:5px 10px;
-    width: 100vw;
+    max-width: 100vw;
     display: flex;
     flex-wrap: wrap;
   }
