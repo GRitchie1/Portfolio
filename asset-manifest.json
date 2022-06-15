@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e4302ed.css",
+    "main.css": "/static/css/main.91972bdf.css",
     "main.js": "/static/js/main.f24144f7.js",
     "static/js/787.78659104.chunk.js": "/static/js/787.78659104.chunk.js",
     "static/media/GRitchie1 HTB Transcript.pdf": "/static/media/GRitchie1 HTB Transcript.d9983b81335d6a0c86b8.pdf",
@@ -12,12 +12,12 @@
     "static/media/3.jpg": "/static/media/3.5c93d83a25f55b532982.jpg",
     "static/media/Codecademy.png": "/static/media/Codecademy.5cbdc72dbbe7bd2966a0.png",
     "index.html": "/index.html",
-    "main.8e4302ed.css.map": "/static/css/main.8e4302ed.css.map",
+    "main.91972bdf.css.map": "/static/css/main.91972bdf.css.map",
     "main.f24144f7.js.map": "/static/js/main.f24144f7.js.map",
     "787.78659104.chunk.js.map": "/static/js/787.78659104.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e4302ed.css",
+    "static/css/main.91972bdf.css",
     "static/js/main.f24144f7.js"
   ]
 }
