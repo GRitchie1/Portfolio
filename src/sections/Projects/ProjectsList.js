@@ -1,3 +1,6 @@
+//YouTube Embedd
+import ReactPlayer from "react-player";
+
 //RFID Robotic Arm
 import img1 from './Images/RFIDRoboticArm/main.jpg';
 import schematic1 from './Images/RFIDRoboticArm/schematic.jpg';
@@ -12,11 +15,17 @@ import img3 from './Images/BalenaToDoList/main.jpg';
 var projectslist = [
     {
         title:"RFID Robotic Arm", 
-        overview: <p>As part of my HND Mechatronics Graded Unit I built an RFID Robotic arm to pick up, identify, and sort items based on their RFID codes...</p>,
+        overview: <p>As part of my HND Mechatronics Graded Unit I built an RFID Robotic arm to pick up, identify, and sort items based on their RFID codes.  <br/><b>This project was awarded an 'A' Grade.</b></p>,
         content:<div>
-                    <p>As part of my HND Mechatronics Graded Unit I built an RFID Robotic arm to pick up, identify, and sort items based on their RFID codes.</p>
+                    <h4>This project was awarded an 'A' Grade.</h4>
+                    <p>As part of my HND Mechatronics Graded Unit I built an RFID Robotic arm to pick up, identify, and sort items based on their RFID codes.
+                    </p>
                     <p>This project was 3D printed on my Ender3V2.</p>
                     <p>This project incorporated mechanical design, 3D modelling, 3D printing, electrical engineering, electronics and programming microcontrollers.</p>
+                    <h3>Watch it in action!</h3>
+                    <ReactPlayer
+                        url="https://www.youtube.com/watch?v=GsCnQiO8YXE"
+                    />
                     <h3>Project Brief</h3>
                     <p>
                         The robotic arm is required to pick up, analyse and sort 3D printed items from a conveyor belt.    
