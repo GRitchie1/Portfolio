@@ -8,11 +8,12 @@ export class Projects extends React.Component {
   constructor(props){
     super(props);
     this.projectslist = projectslist
-    this.projectsToShow=[this.projectslist[0]]
-    this.pageSize = 1               //Number of projects per page
+    this.pageSize =  2               //Number of projects per page
     this.state = { loadNumber: 1, openProjectID: -1 }; //Default number of pages to show
-    this.currentOpenProject = null
 
+    this.projectsToShow=this.projectslist.slice(0,((this.pageSize*this.state.loadNumber))) //Projects to show on initial load
+
+    this.currentOpenProject = null
     this.handleOpenProject = this.handleOpenProject.bind(this)
 
     
@@ -24,7 +25,7 @@ export class Projects extends React.Component {
       openProjectID: -1
     }))
 
-    this.projectsToShow = this.projectslist.slice(0,((this.pageSize*this.state.loadNumber)+1))
+    this.projectsToShow = this.projectslist.slice(0,((this.pageSize*this.state.loadNumber)+this.pageSize))
   }
 
   handleOpenProject(id) {
