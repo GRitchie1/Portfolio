@@ -12,6 +12,10 @@ import img2 from './Images/AutomaticGreenhouse/main.jpg';
 //Balena To Do List
 import img3 from './Images/BalenaToDoList/main.jpg';
 
+//Tic Tac Terminal Toe
+import img4 from './Images/TicTacTerminalToe/main.jpg';
+
+
 var projectslist = [
     {
         title:"RFID Robotic Arm", 
@@ -218,6 +222,21 @@ var projectslist = [
                 </div>,
         img:img3, 
         url:"https://github.com/GRitchie1/Balena_ToDoList" 
+    },
+    {
+        title:"CodeCademy Project: Tic-Tac-Terminal-Toe", 
+        overview:<p>A multiplayer version of Tic-Tac-Toe played in the terminal.  This program was written in Python. Created as part of the CodeCademy Computer Science Career Path...</p>, 
+        content:<div>
+                    <p>A multiplayer version of Tic-Tac-Toe played in the terminal.</p>
+                    <p>This project was created as part of the CodeCademy Computer Science Career Path.  This program was written in Python utilising OOP.  </p>
+                    <p>Users take turns selecting the column and row they want to place their marker.  If a player gets 3 markers in a row they win. </p>
+                    <p>
+                        The grid was created as a Class, and uses a 2D array structure to hold the status of the game.  
+                        The grid has a number of methods to check for win conditions, and allow the users to perform moves.
+                    </p>
+                </div>,
+        img:img4, 
+        url:"https://github.com/GRitchie1/CodeCademy-TicTacTerminalToe" 
     },
   ]
 export default projectslist;
