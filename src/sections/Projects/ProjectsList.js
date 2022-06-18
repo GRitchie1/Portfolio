@@ -23,9 +23,7 @@ var projectslist = [
                     <p>This project was 3D printed on my Ender3V2.</p>
                     <p>This project incorporated mechanical design, 3D modelling, 3D printing, electrical engineering, electronics and programming microcontrollers.</p>
                     <h3>Watch it in action!</h3>
-                    <ReactPlayer
-                        url="https://www.youtube.com/watch?v=GsCnQiO8YXE"
-                    />
+                    <ReactPlayer url="https://www.youtube.com/watch?v=GsCnQiO8YXE" className="youtubePlayer"/>
                     <h3>Project Brief</h3>
                     <p>
                         The robotic arm is required to pick up, analyse and sort 3D printed items from a conveyor belt.    
