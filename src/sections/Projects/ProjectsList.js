@@ -12,6 +12,12 @@ import img2 from './Images/AutomaticGreenhouse/main.jpg';
 //Balena To Do List
 import img3 from './Images/BalenaToDoList/main.jpg';
 
+//Motorbike
+import bike1 from './Images/Motorbike/main.jpg'
+import before from './Images/Motorbike/before.jpg'
+import during from './Images/Motorbike/during.jpg'
+import after from './Images/Motorbike/after.jpg'
+
 //Tic Tac Terminal Toe
 import img4 from './Images/TicTacTerminalToe/main.jpg';
 
@@ -222,6 +228,32 @@ var projectslist = [
                 </div>,
         img:img3, 
         url:"https://github.com/GRitchie1/Balena_ToDoList" 
+    },
+    {
+        title:"Custom Motorcycle", 
+        overview:<p>I designed and fabricated parts to customise my motorbike...</p>, 
+        content:<div>
+                    <p>Over the last year I have designed and customised my motorbike.</p>
+                    <p>This project included fabrication of custom brackets and panels to achieve the desired style.  </p>
+                    <p>The motorbike started its life as a green and cream standard Yamaha XVS650A Classic.  This is a cruiser style motorbike which I have customised into a bobber style.</p>
+                    <p>The parts of the bike that I customised were: </p>
+                    <ul>
+                        <li>Mudguard</li>
+                        <li>Rear Indicators</li>
+                        <li>Foot Boards to Pegs</li>
+                        <li>Electronic gear shifter replaced with stock gear shifter</li>
+                        <li>Colour changed to Black</li>
+                        <li>New bobber seat</li>
+                    </ul>
+                    <h3>Before</h3>
+                    <img style={{maxWidth:"100%"}} src={before} alt="motorbike before"></img>
+                    <h3>During</h3>
+                    <img style={{maxWidth:"100%"}} src={during} alt="motorbike during"></img>
+                    <h3>After</h3>
+                    <img style={{maxWidth:"100%"}} src={after} alt="motorbike after"></img>
+                </div>,
+        img:bike1, 
+        url:"" 
     },
     {
         title:"CodeCademy Project: Tic-Tac-Terminal-Toe", 
