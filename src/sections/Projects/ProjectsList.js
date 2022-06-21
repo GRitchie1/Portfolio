@@ -18,6 +18,9 @@ import before from './Images/Motorbike/before.jpg'
 import during from './Images/Motorbike/during.jpg'
 import after from './Images/Motorbike/after.jpg'
 
+//Conways Game of life
+import conways1 from './Images/ConwaysGameofLife/main.jpg'
+
 //Tic Tac Terminal Toe
 import img4 from './Images/TicTacTerminalToe/main.jpg';
 
@@ -254,6 +257,22 @@ var projectslist = [
                 </div>,
         img:bike1, 
         url:"" 
+    },
+    {
+        title:"Conways Game of Life - Image input", 
+        overview:<p>A simulator for Conways Game of Life that takes an image, converts it to a black and white array and uses this as the input to the conways game of life...</p>, 
+        content:<div>
+                    <p>
+                        This project was to design a version of Conways Game of Life that uses an image as the input.  
+                        It converts the image to a black and white array, then runs conways game of life on it for 100 iterations.
+                        This project was built using PyGame.
+                    </p>
+                    <p>
+                        This is a form of hashing function as a specific input always generates the same output after a set number of iterations, but the input is not able to be recovered from the output.
+                    </p>
+                </div>,
+        img:conways1, 
+        url:"https://github.com/GRitchie1/ConwaysGameOfLife" 
     },
     {
         title:"CodeCademy Project: Tic-Tac-Terminal-Toe", 
