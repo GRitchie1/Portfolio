@@ -19,7 +19,7 @@ class Project extends React.Component {
           <div className={styles.ProjectTextContainer}>
             <h2 className={styles.ProjectText}>{this.title}</h2>
             <p className={styles.ProjectText}>{this.overview}</p>
-            <Button onClick={()=>this.props.handleOpenProject(this.index)} text="Read More"></Button>
+            <Button onClick={()=>this.props.handleOpenProject(this.index)} link={'#projects'} text="Read More"></Button>
           </div>
         </div>
       );
