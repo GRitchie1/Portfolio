@@ -45,14 +45,14 @@ export class Projects extends React.Component {
     if (this.state.openProjectID === -1){
       return(
         <div className='Projects-Container'>
-          {this.projectsToShow.map((project, index)=>{return(<Project title={project.title} overview={project.overview} img={project.img} index={index} key={index} handleOpenProject={this.handleOpenProject.bind(this)} url={project.url}/>);})}
+          {this.projectsToShow.map((project, index)=>{return(<Project title={project.title} started={project.started} completed={project.completed} overview={project.overview} img={project.img} index={index} key={index} handleOpenProject={this.handleOpenProject.bind(this)} url={project.url}/>);})}
         </div>
       );
     }
     else{
       var currentOpenProject = this.projectslist[this.state.openProjectID]
       return(
-        <OpenProject title={currentOpenProject.title} content={currentOpenProject.content} img={currentOpenProject.img} handleOpenProject={this.handleOpenProject.bind(this)} url={currentOpenProject.url}/>
+        <OpenProject title={currentOpenProject.title} started={currentOpenProject.started} completed={currentOpenProject.completed} content={currentOpenProject.content} img={currentOpenProject.img} handleOpenProject={this.handleOpenProject.bind(this)} url={currentOpenProject.url}/>
       );
     }
   }

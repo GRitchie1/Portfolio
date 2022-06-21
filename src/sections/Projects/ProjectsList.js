@@ -26,8 +26,9 @@ import img4 from './Images/TicTacTerminalToe/main.jpg';
 
 
 var projectslist = [
-    {
-        title:"RFID Robotic Arm", 
+    {title:"RFID Robotic Arm", 
+        started:"September 2021",
+        completed:"May 2022",
         overview: <p>As part of my HND Mechatronics Graded Unit I built an RFID Robotic arm to pick up, identify, and sort items based on their RFID codes.  <br/><b>This project was awarded an 'A' Grade.</b></p>,
         content:<div>
                     <h4>This project was awarded an 'A' Grade.</h4>
@@ -186,8 +187,9 @@ var projectslist = [
         img:img1, 
         url:"https://github.com/GRitchie1/RFIDRoboticArm-HNDGradedUnit" 
     },
-    {
-        title:"Automatic GreenHouse", 
+    {title:"Automatic GreenHouse", 
+        started:"June 2022",
+        completed:false,
         overview:<p>An Automatic GreenHouse project to control air temperature and humidity, and water the plants autonomously...</p>, 
         content:<div>
                     <p>I am currently developing a modular automatic greenhouse that can water the plants and control the air temperature & humidity.</p>
@@ -220,8 +222,9 @@ var projectslist = [
         img:img2, 
         url:"https://github.com/GRitchie1/AutomaticGreenhouse" 
     },
-    {
-        title:"Balena To Do List", 
+    {title:"Balena To Do List", 
+        started:"September 2021",
+        completed:false,
         overview:<p>A desktop, Flask based 'To Do List' application run on Raspberry Pi 4 managed by Balena...</p>, 
         content:<div>
                     <p>As an experiment I built a To Do List application using Flask.</p>
@@ -232,8 +235,9 @@ var projectslist = [
         img:img3, 
         url:"https://github.com/GRitchie1/Balena_ToDoList" 
     },
-    {
-        title:"Custom Motorcycle", 
+    {title:"Custom Motorcycle", 
+        started:"December 2021",
+        completed:false,
         overview:<p>I designed and fabricated parts to customise my motorbike...</p>, 
         content:<div>
                     <p>Over the last year I have designed and customised my motorbike.</p>
@@ -258,8 +262,9 @@ var projectslist = [
         img:bike1, 
         url:"" 
     },
-    {
-        title:"Conways Game of Life - Image input", 
+    {title:"Conways Game of Life - Image input", 
+        started:"December 2021",
+        completed:"December 2021",
         overview:<p>A simulator for Conways Game of Life that takes an image, converts it to a black and white array and uses this as the input to the conways game of life...</p>, 
         content:<div>
                     <p>
@@ -274,8 +279,9 @@ var projectslist = [
         img:conways1, 
         url:"https://github.com/GRitchie1/ConwaysGameOfLife" 
     },
-    {
-        title:"CodeCademy Project: Tic-Tac-Terminal-Toe", 
+    {title:"CodeCademy Project: Tic-Tac-Terminal-Toe", 
+        started:"June 2022",
+        completed:"June 2022",
         overview:<p>A multiplayer version of Tic-Tac-Toe played in the terminal.  This program was written in Python. Created as part of the CodeCademy Computer Science Career Path...</p>, 
         content:<div>
                     <p>A multiplayer version of Tic-Tac-Toe played in the terminal.</p>

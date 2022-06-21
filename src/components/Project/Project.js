@@ -18,6 +18,8 @@ class Project extends React.Component {
           <img className={styles.ProjectImg} src={this.img} alt={this.title}></img>
           <div className={styles.ProjectTextContainer}>
             <h2 className={styles.ProjectText}>{this.title}</h2>
+            <b>Started: {this.props.started}</b> <br/>
+            <b>{this.props.completed ? "Completed: "+this.props.completed : "Ongoing"}</b>
             <p className={styles.ProjectText}>{this.overview}</p>
             <Button onClick={()=>this.props.handleOpenProject(this.index)} link={'#projects'} text="Read More"></Button>
           </div>
@@ -42,6 +44,8 @@ class Project extends React.Component {
           <Button text="Close" onClick={()=>this.props.handleOpenProject(-1)}></Button>
           <img className={styles.OpenProjectImg} src={this.img} alt={this.title}></img>
           <h2 className={styles.ProjectText}>{this.title}</h2>
+          <b>Started: {this.props.started}</b> <br/>
+          <b>{this.props.completed ? "Completed: "+this.props.completed : "Ongoing"}</b>
           <p className={styles.ProjectText}>{this.content}</p>
           {this.url ? <Button link={this.url} text="Check it out on GitHub"/> : <Button link='#contactme' text="Contact Me"/>}
           
