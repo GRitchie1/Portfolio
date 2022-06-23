@@ -27,6 +27,9 @@ import laser1 from './Images/LaserEngraver/main.jpg'
 //Tic Tac Terminal Toe
 import img4 from './Images/TicTacTerminalToe/main.jpg';
 
+//Macro Pad
+import macro1 from './Images/MacroPad/main.jpg'
+
 
 var projectslist = [
     {title:"RFID Robotic Arm", 
@@ -291,6 +294,26 @@ var projectslist = [
     img:laser1, 
     url:"" 
     },
+    {title:"USB Macro Pad", 
+        started:"December 2020",
+        completed:"December 2020",
+        overview:<p>I designed a USB macro pad to improve my productivity on my PC...</p>, 
+        content:<div>
+                    <p>
+                        I designed a USB macro pad to improve my productivity on my PC.  This featured 5 MX switches, and 3 rotary encoders.  
+                        These allow me to open programs, complete repetetive tasks, mute and unmute my microphone and change the volume on my PC via one of the rotary encoders.
+                    </p>
+                    <p>
+                        This project was based around the Arduino Pro Micro which can act as a native USB host.  This allows it to interact with the PC using USB as if it were a keyboard or a mouse.
+                        This allowed me to program specific key presses for each operation to improve my productivity.
+                    </p>
+                    <p>
+                        I designed a custom PCB for this project using EasyEDA, I then got it manufactured by JLC PCB.
+                    </p>
+                </div>,
+        img:macro1, 
+        url:"https://github.com/GRitchie1/Macro-Pad" 
+    },
     {title:"Custom Motorcycle", 
         started:"December 2021",
         completed:false,
@@ -353,3 +376,16 @@ var projectslist = [
     },
   ]
 export default projectslist;
+
+/*
+    {title:"Title", 
+        started:"Date",
+        completed:"Date",
+        overview:<p>Text Overview...</p>, 
+        content:<div>
+                    <p>Main Text of project.</p>
+                </div>,
+        img:importedimage, 
+        url:"https://example.com" 
+    },
+*/
