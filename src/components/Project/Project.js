@@ -20,7 +20,7 @@ class Project extends React.Component {
             <h2 className={styles.ProjectText}>{this.title}</h2>
             <b>Started: {this.props.started}</b> <br/>
             <b>{this.props.completed ? "Completed: "+this.props.completed : "Ongoing"}</b>
-            <p className={styles.ProjectText}>{this.overview}</p>
+            <div className={styles.ProjectText}>{this.overview}</div>
             <Button onClick={()=>this.props.handleOpenProject(this.index)} link={'#projects'} text="Read More"></Button>
           </div>
         </div>
@@ -46,7 +46,7 @@ class Project extends React.Component {
           <h2 className={styles.ProjectText}>{this.title}</h2>
           <b>Started: {this.props.started}</b> <br/>
           <b>{this.props.completed ? "Completed: "+this.props.completed : "Ongoing"}</b>
-          <p className={styles.ProjectText}>{this.content}</p>
+          <div className={styles.ProjectText}>{this.content}</div>
           {this.url ? <Button link={this.url} text="Check it out on GitHub"/> : <Button link='#contactme' text="Contact Me"/>}
           
         </div>
