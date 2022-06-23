@@ -21,6 +21,9 @@ import after from './Images/Motorbike/after.jpg'
 //Conways Game of life
 import conways1 from './Images/ConwaysGameofLife/main.jpg'
 
+//Laser engraver 
+import laser1 from './Images/LaserEngraver/main.jpg'
+
 //Tic Tac Terminal Toe
 import img4 from './Images/TicTacTerminalToe/main.jpg';
 
@@ -234,6 +237,59 @@ var projectslist = [
                 </div>,
         img:img3, 
         url:"https://github.com/GRitchie1/Balena_ToDoList" 
+    },
+    {title:"Laser Engraver - Rebuild and Upgrade", 
+    started:"March 2021",
+    completed:false,
+    overview:<p>I fixed, re-programmed and am now redesigning and upgrading a laser engraver...</p>, 
+    content:<div>
+                <p>I was gifted a laser engraver by a friend, however it did not work as the microcontroller was damaged. </p>
+                <h3>Debugging</h3>
+                <p>
+                    I replaced the microcontroller and flashed a new version of GRBL, however the motors still did not move.
+                    After some debugging I discovered that the wires for the stepper motors were in the wrong order.  I re-wired the motors, and was able to move in the X axis.
+                    The Y axis was still unable to move.  After some more debugging I discovered that the stepper driver board was damaged, 
+                    and after replacing it I was successfully able to move the Laser.
+                </p>
+                <h3>Testing</h3>
+                <p>
+                    Next I set up LightBurn which is a software which allows images to be converted into the correct GCode to control the laser.  
+                    After setting up and configuring the software I was able to run some initial tests.
+                    These were a success, and after some finetuning of the laser focus I was able to burn some proper pieces.
+                </p>
+                <h3>Upgrades</h3>
+                <p>
+                    The first issue I discovered was that the laser engraver did not have any limit switches to home to.  
+                    This meant that the home position of the laser was set to wherever the laser happened to be when the system was powered up.
+                    To fix this, I installed limit switches and reflashed the GRBL to the microcontroller which allowed the system to home itself before each job.
+                </p>
+                <p>
+                    After running many jobs, it became clear that manually positioning each piece was causing deviations in the quality of the result.  
+                    Pieces placed slightly off centre or at an angle meant that the image would be off centre or at an angle on the piece.  This impacted the quality of the pieces.
+                    To fix this I designed some new feet for the laser which feature slots to insert a wooden board.  
+                    3D printed mounts can be attached to this board, this allows each item being engraved to be positioned in the mount to ensure it is straight and in the same position every time.
+                </p>
+                <p>
+                    Furthermore, it became apparent that the cables for the stepper motors were occasionally getting caught on the frame of the laser, this caused the laser to get stuck and unable to complete the job correctly.
+                    It also risked damaging the motors and the wiring.
+                    To solve this issue I rewired the motors with longer cables and installed cable chains.  I redesigned the feet for the laser to include a mount for the cable chains.
+                    Thankfully, as these are 3D printed I did not have to wait long to install them.  Once they were installed the laser was much safer as the cables were managed correctly.
+                </p>
+                <h3>Future Upgrades</h3>
+                <p>
+                    After running more jobs, specifically with straight lines, it became apparent that there was significant wobble on the laser.  
+                    This meant that straight lines were burned wobbly, and small details were often lost in prints.  
+                    This was caused by a tolerance between the laser gantry and the aluminium extrusion that it runs on.
+                    Unfortunately there is no way to adjust the tolerances of the wheels.
+                    The solution I have designed will utilise a linear rail to improve the accuracy of the laser.
+                </p>
+                <p>
+                    The final planned upgrade for the system is to install a higher wattage laser to allow the system to cut and engrave more materials.
+                    This may require redesign of the electronics to provide adequate power to the laser.
+                </p>
+            </div>,
+    img:laser1, 
+    url:"" 
     },
     {title:"Custom Motorcycle", 
         started:"December 2021",
