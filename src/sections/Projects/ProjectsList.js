@@ -31,6 +31,11 @@ import img4 from './Images/TicTacTerminalToe/main.jpg';
 //Macro Pad
 import macro1 from './Images/MacroPad/main.jpg'
 
+//On air
+import onAir1 from './Images/OnAir/main.jpg'
+import onAir2 from './Images/OnAir/internals.jpg'
+import onAir3 from './Images/OnAir/web.jpg'
+
 
 var projectslist = [
     {title:"RFID Robotic Arm", 
@@ -349,6 +354,21 @@ var projectslist = [
                     <img style={{maxWidth:"100%"}} src={after} alt="motorbike after"></img>
                 </div>,
         img:bike1, 
+        url:"" 
+    },
+    {title:"On Air Sign", 
+        started:"June 2020",
+        completed:"June 2020",
+        overview:<p>Wifi enabled On Air sign using ESP8266...</p>, 
+        content:<div>
+                    <p>I designed and built a Wifi enabled On Air sign using an ESP8266. </p>
+                    <p>The box is an old Wine box which was painted black and tin foil was glued to the inside.  The lettering was purchased online as individual stickers and placed onto the plastic. </p>
+                    <p>The electronics design was simple and utilised a small relay to switch the lights on and off. It is powered using a USB plug, which powers the microcontroller, the relay and the lights using 5V.</p>
+                    <img style={{maxWidth:"100%"}} src={onAir2} alt="on air sign wiring"></img>
+                    <p>The ESP8266 was set up to host a simple web page to allow users to turn on and off the LED strip in the sign.</p>
+                    <img style={{maxWidth:"100%"}} src={onAir3} alt="on air sign web interface"></img>
+                </div>,
+        img:onAir1, 
         url:"" 
     },
     {title:"Conways Game of Life - Image input", 
