@@ -9,12 +9,13 @@ function Qualifications() {
         <header className="Qualification-Header">
           <h1 >Qualifications</h1>
           <p> 
-            I am currently studying HND Mechatroncs at the City of Glasgow College, Scotland.
+            I recently completed my HND Mechatronics at the City of Glasgow College, Scotland.  I was awarded an A grade for my HND Graded Unit.<br></br>
             As part of my HND Graded Unit I developed a robotic arm to sort items by RFID tag, this can be seen in the <a href="#projects">Projects</a> section.  
           </p>
           <p> 
-            I recently completed an HNC in Mechatronics at the City of Glasgow College.  
-            As well as building on existing skills in Robotics and Programming this course covered Mechanical and Electrical Engineering and Cyber Security.  
+            Previously, I also completed an HNC in Mechatronics at the City of Glasgow College. 
+            I was awarded an A grade for my HNC Graded Unit.<br></br>
+            As well as building on existing skills in Robotics and Programming this course also covered Mechanical and Electrical Engineering and Cyber Security.  
           </p>
           <p> 
             I have also undertaken several online courses on CodeCademy and Hack the Box Academy which can be seen in the student transcripts below.
